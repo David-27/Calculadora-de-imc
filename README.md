@@ -1,6 +1,6 @@
 📊 Calculadora de IMC
 
-LINK: 
+LINK: https://calculadora-de-imc-wheat.vercel.app/
 
 Uma aplicação web simples para calcular o Índice de Massa Corporal (IMC) utilizando HTML, CSS e JavaScript.
 O usuário informa peso e altura, e o sistema calcula automaticamente o IMC e mostra a classificação.
