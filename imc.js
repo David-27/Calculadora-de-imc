@@ -12,21 +12,20 @@ btn_calcular.addEventListener("click", function () {
     result_imc.innerHTML = "O IMC de " + nameUser.value + " é : " + resultado.toFixed(2);
 
 
-    if (resultado < 18,5 ){
-        description.innerHTML = "Abaixo do peso (Magreza)!"
+    if (resultado < 18.5 ){
+        result_imc.innerHTML += " - Abaixo do peso (Magreza)!"
 
-    }else if(resultado >= 18,5 && resultado <= 24,9){
-        description.innerHTML = "Peso normal!"
-    }else if(resultado >= 25 && resultado <= 29,9){
-        description.innerHTML = "Sobrepeso!"
-    } else if(resultado >= 30 && resultado <= 34,9){
-        description.innerHTML = "Obesidade grau I!"
-    } else if(resultado >= 35 && resultado <= 39,9){
-        description.innerHTML = "Obesidade grau II!"
+    }else if(resultado >= 18.5 && resultado <= 24.9){
+        result_imc.innerHTML += " - Peso normal!"
+    }else if(resultado >= 25 && resultado <= 29.9){
+        result_imc.innerHTML += " - Sobrepeso!"
+    } else if(resultado >= 30 && resultado <= 34.9){
+        result_imc.innerHTML += " - Obesidade grau I!"
+    } else if(resultado >= 35 && resultado <= 39.9){
+        result_imc.innerHTML += " - Obesidade grau II!"
     } else if(resultado >= 40){
-        description.innerHTML = "Obesidade grau III ou Mórbida!"
+        result_imc.innerHTML += " - Obesidade grau III ou Mórbida!"
     }
-
 
 });
 
